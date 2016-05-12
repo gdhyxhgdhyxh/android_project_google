@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GooglePlay_19.iml" filepath="$PROJECT_DIR$/GooglePlay_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingTabStrip_Library/PagerSlidingTabStrip_Library.iml" filepath="$PROJECT_DIR$/PagerSlidingTabStrip_Library/PagerSlidingTabStrip_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressbutton/progressbutton.iml" filepath="$PROJECT_DIR$/progressbutton/progressbutton.iml" />
+    </modules>
+  </component>
+</project>

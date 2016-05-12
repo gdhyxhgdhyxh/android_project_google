@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/main_drawerlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--左边菜单区域 ,
+    在用DrawerLayout包裹的时候,要给左右加android:layout_gravity="left"这个属性进行区分-->
+    <FrameLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#44ff0000">
+    </FrameLayout>
+
+    <!--右边菜单-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+    </FrameLayout>
+
+    <!--内容区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.wjh.org.googleplay_19.MainActivity">
+
+        <!--tabs 增加了4个字体状态-->
+        <com.astuetz.PagerSlidingTabStripExtends
+            app:pstsSelectedTabTextSize="18sp"
+            app:pstsTabTextSize="16sp"
+            app:pstsSelectedTabTextColor="@color/tab_text_selected"
+            app:pstsTabTextColor="@color/tab_text_normal"
+            app:pstsIndicatorColor="@color/tab_indicator_selected"
+            android:id="@+id/main_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip" />
+
+        <!--viewpager -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GooglePlay_19</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    /*------------主页数组------------------*/
+
+    <string-array name="main_titles">
+        <item>首页</item>
+        <item>应用</item>
+        <item>游戏</item>
+        <item>专题</item>
+        <item>推荐</item>
+        <item>分类</item>
+        <item>排行</item>
+    </string-array>
+
+    <!--应用详情页面的 app详情信息, 这里是用%1代表一个占位符,$s就是占位符内容,可以有多个占位符-->
+    <string name="app_detail_info_downloadnum">下载: %1$s</string>
+    <string name="app_detail_info_version">版本: %1$s</string>
+    <string name="app_detail_info_time">时间: %1$s</string>
+    <string name="app_detail_info_size">大小: %1$s</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--背景-->
+    <item android:drawable="@drawable/rating_small_empty" android:id="@android:id/background"/>
+
+    <!--副进度条-->
+    <item android:drawable="@drawable/rating_small_half" android:id="@android:id/secondaryProgress"/>
+
+    <!--主进度-->
+    <item android:drawable="@drawable/rating_small_full" android:id="@android:id/progress"/>
+</layer-list>

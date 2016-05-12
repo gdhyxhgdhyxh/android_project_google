@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--定义两个枚举属性,用来在xml布局中选择性让ratioLayout使用宽高比判断的问题-->
+    <declare-styleable name="RatioLayout">
+        <attr name="rlrelative" format="enum">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+        </attr>
+        <!--设置宽高比-->
+        <attr name="rlpicRatio" format="float"></attr>
+    </declare-styleable>
+</resources>

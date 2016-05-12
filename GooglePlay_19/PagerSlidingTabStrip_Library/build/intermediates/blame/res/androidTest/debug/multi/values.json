@@ -1,0 +1,19 @@
+[
+    {
+        "outputFile": "I:\\androidStudio_workspace\\GooglePlay_19\\PagerSlidingTabStrip_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "I:\\androidStudio_workspace\\GooglePlay_19\\PagerSlidingTabStrip_Library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml"
+                }
+            }
+        ]
+    }
+]
